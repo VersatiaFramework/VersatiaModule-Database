@@ -58,3 +58,7 @@ Requires JDK 21. The artifact is not on a Maven repository yet:
 ```
 
 publishes `dev.versatia:VersatiaModule-Database` to your local Maven repository.
+
+## License
+
+Apache License 2.0; see [LICENSE](LICENSE).
