@@ -14,16 +14,16 @@ database.async { sql("SELECT name, coins FROM {prefix}profiles ORDER BY coins DE
     .thenSync { top -> show(sender, top) }
 ```
 
-Documentation: [Database module](https://versatiaframework.github.io/VersatiaDocs/docs/modules/database).
+Documentation: [Database module](https://versatia.dev/docs/modules/database).
 
 Like VersatiaAPI and VersatiaCore, the module comes in two halves. This repository is the public
 half, the library plugins compile against, nothing that runs:
 
 | Package                                         | What it holds                                                                 |
 |-------------------------------------------------|-------------------------------------------------------------------------------|
-| `com.github.marcoral.versatia.database`         | `Database`, `SqlScope`, `Transaction`, `Statement`, `Row`, `DatabaseFuture`, `Engine`, `Json`, the status and the exceptions |
-| `com.github.marcoral.versatia.database.mapping` | `Column` and `ColumnCodec`, for columns whose name or type needs help         |
-| `com.github.marcoral.versatia.database.store`   | `KeyedStore`, `PlayerStore`, `StoreSchema`, `StoreTransaction`: write-behind caches of rows |
+| `dev.versatia.database`         | `Database`, `SqlScope`, `Transaction`, `Statement`, `Row`, `DatabaseFuture`, `Engine`, `Json`, the status and the exceptions |
+| `dev.versatia.database.mapping` | `Column` and `ColumnCodec`, for columns whose name or type needs help         |
+| `dev.versatia.database.store`   | `KeyedStore`, `PlayerStore`, `StoreSchema`, `StoreTransaction`: write-behind caches of rows |
 
 The API names only JDK, Kotlin and Bukkit types; the pool, the drivers and every engine-specific
 rule live in the implementation, the plugin installed on the server as `VersatiaModule-Database`,
@@ -47,7 +47,7 @@ depend:
 
 `VersatiaStarter` does not include this API: a plugin using the module adds it next to the starter
 (`libs.versatia.database` from the `VersatiaCatalog`, or
-`com.github.marcoral.versatia:VersatiaModule-Database:0.0.1`).
+`dev.versatia:VersatiaModule-Database:0.0.1`).
 
 ## Building
 
@@ -57,4 +57,4 @@ Requires JDK 21. The artifact is not on a Maven repository yet:
 ./gradlew publishToMavenLocal
 ```
 
-publishes `com.github.marcoral.versatia:VersatiaModule-Database` to your local Maven repository.
+publishes `dev.versatia:VersatiaModule-Database` to your local Maven repository.

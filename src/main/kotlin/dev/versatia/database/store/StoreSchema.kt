@@ -1,6 +1,6 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
-import com.github.marcoral.versatia.database.SqlScope
+import dev.versatia.database.SqlScope
 
 /** How a store reads and writes values when a table store does not fit (several tables, a custom layout). Called on database threads. */
 interface StoreSchema<K : Any, V : Any> {

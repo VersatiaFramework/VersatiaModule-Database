@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database.mapping
+package dev.versatia.database.mapping
 
 import kotlin.reflect.KClass
 

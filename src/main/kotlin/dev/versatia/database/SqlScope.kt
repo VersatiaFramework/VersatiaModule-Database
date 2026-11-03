@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database
+package dev.versatia.database
 
 import java.sql.Connection
 

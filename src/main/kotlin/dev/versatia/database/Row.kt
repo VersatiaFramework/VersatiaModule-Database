@@ -1,6 +1,6 @@
-package com.github.marcoral.versatia.database
+package dev.versatia.database
 
-import com.github.marcoral.versatia.database.mapping.ColumnCodec
+import dev.versatia.database.mapping.ColumnCodec
 import java.time.Instant
 import java.util.UUID
 import kotlin.reflect.KType

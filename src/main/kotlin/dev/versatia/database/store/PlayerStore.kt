@@ -1,6 +1,6 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
-import com.github.marcoral.versatia.database.DatabaseFuture
+import dev.versatia.database.DatabaseFuture
 import java.util.UUID
 import org.bukkit.OfflinePlayer
 import org.bukkit.entity.Player

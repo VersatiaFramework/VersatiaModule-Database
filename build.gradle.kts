@@ -6,7 +6,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.github.marcoral.versatia"
+group = "dev.versatia"
 version = "0.0.1"
 
 // Only the Paper API (for Player and OfflinePlayer), JDK types and coroutines for await(); plugins have VersatiaAPI and Paper on their classpath already

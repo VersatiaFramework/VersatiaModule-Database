@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
 import java.util.UUID
 import org.bukkit.OfflinePlayer

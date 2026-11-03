@@ -1,6 +1,6 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
-import com.github.marcoral.versatia.database.Transaction
+import dev.versatia.database.Transaction
 
 /** A transaction that also holds store entries. */
 interface StoreTransaction<K : Any, V : Any> : Transaction {

@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database
+package dev.versatia.database
 
 /**
  * A snapshot of one plugin's database: [plugin] is its friendly name, [target] a file path or `host:port/database`, never

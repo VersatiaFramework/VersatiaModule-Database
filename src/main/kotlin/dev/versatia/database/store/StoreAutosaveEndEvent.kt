@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
 import kotlin.time.Duration
 import org.bukkit.event.Event

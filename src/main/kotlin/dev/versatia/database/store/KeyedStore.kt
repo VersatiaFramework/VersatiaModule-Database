@@ -1,6 +1,6 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
-import com.github.marcoral.versatia.database.DatabaseFuture
+import dev.versatia.database.DatabaseFuture
 
 /**
  * A write-behind cache of immutable values: replacing a value marks it changed, and saves write

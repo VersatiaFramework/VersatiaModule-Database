@@ -1,9 +1,9 @@
-package com.github.marcoral.versatia.database
+package dev.versatia.database
 
-import com.github.marcoral.versatia.database.mapping.ColumnCodec
-import com.github.marcoral.versatia.database.store.KeyedStore
-import com.github.marcoral.versatia.database.store.PlayerStore
-import com.github.marcoral.versatia.database.store.StoreSchema
+import dev.versatia.database.mapping.ColumnCodec
+import dev.versatia.database.store.KeyedStore
+import dev.versatia.database.store.PlayerStore
+import dev.versatia.database.store.StoreSchema
 import java.util.UUID
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty1

@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database.store
+package dev.versatia.database.store
 
 import org.bukkit.event.Event
 import org.bukkit.event.HandlerList

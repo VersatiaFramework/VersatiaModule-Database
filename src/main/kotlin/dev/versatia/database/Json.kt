@@ -1,4 +1,4 @@
-package com.github.marcoral.versatia.database
+package dev.versatia.database
 
 /** JSON text for a `{json}` column; bound so that PostgreSQL's JSONB accepts it, plain text elsewhere. */
 @JvmInline
