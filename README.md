@@ -51,7 +51,7 @@ depend:
 
 ## Building
 
-Requires JDK 21. The artifact is not on a Maven repository yet:
+Requires JDK 25. The artifact is not on a Maven repository yet:
 
 ```bash
 ./gradlew publishToMavenLocal

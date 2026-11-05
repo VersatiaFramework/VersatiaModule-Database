@@ -11,22 +11,22 @@ version = "0.0.1"
 
 // Only the Paper API (for Player and OfflinePlayer), JDK types and coroutines for await(); plugins have VersatiaAPI and Paper on their classpath already
 dependencies {
-    compileOnlyApi("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnlyApi("io.papermc.paper:paper-api:26.3.build.241-stable")
     api(kotlin("stdlib"))
     // Plugins get kotlinx-coroutines through VersatiaAPI and, on the server, from VersatiaCore
     compileOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
 }
 
-// Paper 1.21.4 requires Java 21
+// Paper 26.3 requires Java 25
 java {
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
     withSourcesJar()
 }
 
 kotlin {
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_21)
+        jvmTarget.set(JvmTarget.JVM_25)
     }
 }
 
